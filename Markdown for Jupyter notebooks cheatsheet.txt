@@ -1,0 +1,78 @@
+Markdown for Jupyter notebooks cheatsheet
+07 FEBRUARY 2017
+
+Headings: 
+
+	# title 
+	## major headings 
+	### subheadings 
+	#### 4th level subheadings
+
+Bold:
+		__string__ 
+		**string**
+Italic: 
+	 	_string_ 
+	 	*string*
+
+Mathematical symbols: 
+		$ LaTeX expression $
+
+Code (Monospace font): 
+
+	`code'
+	'file path'
+	'user entered text'
+	'user messages'
+
+Indenting: 
+	> indented text
+
+
+Circular Bullets (uses dashes or *):  
+	'-  ' dash space space
+	' - ' space, dash, space 
+
+Sub bullet
+	tab, dash, space, space
+
+Numbered lists: 
+	Start with 1. followed by a space, then it starts numbering for you.
+	Start each line with some number and a period, then a space. 
+	Tab to indent to get subnumbering.
+
+
+Horizontal lines:
+	***
+
+Graphics: Use only graphics that are hosted on the web.
+	 You can't add captions for graphics at this time. 
+	 Use this code: 
+
+		<img src="url.gif" alt="alt text" title="Title text" />
+
+External links: 
+
+	__[link text](http://url)__
+
+Colored note boxes: Use one of these div tags.
+
+	<div class="alert alert-block alert-info">
+		Tip: Use blue boxes for Tips and notes. If it’s a note, you don’t have to include the word “Note”.
+	</div>
+
+	<div class="alert alert-block alert-warning">
+		Example: Use yellow boxes for examples that are not inside code cells, or use for mathematical formulas if needed.
+	</div>
+
+	<div class="alert alert-block alert-success">
+		Up to you: Use green boxes sparingly, and only for some specific
+		purpose that the other boxes can't cover. For example, if you have
+		a lot of related content to link to, maybe you decide to use green
+		boxes for related links from each section of a notebook. 
+	</div>
+
+	<div class="alert alert-block alert-danger">
+		Just don't: In general, just avoid the red boxes.
+	</div>
+
