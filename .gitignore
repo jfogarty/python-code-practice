@@ -33,6 +33,7 @@ CtC*/
 x/
 saved/
 Leetcode/
+nbviewer/
 
 # Jupyter temp files
 .ipynb_*/
